@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>planning_integrated</name>
+  <version>0.0.0</version>
+  <description>planning_integrated</description>
+  <maintainer email="wdingae@todo.com">HKUST_UAV_GROUP</maintainer>
+  <license>TODO</license>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- In ROS2, all dependencies are either <depend>, <build_depend>, <build_export_depend>, or <exec_depend> -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>common</depend>
+  <depend>semantic_map_manager</depend>
+  <depend>behavior_planner</depend>
+  <depend>eudm_planner</depend>
+  <depend>ssc_planner</depend>
+  <depend>protobuf</depend>
+  <depend>glog</depend>
+  <depend>visualization_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>message_filters</depend>
+  <exec_depend>ros2launch</exec_depend>
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
